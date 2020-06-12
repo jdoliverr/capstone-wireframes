@@ -18,6 +18,20 @@
     </Header>
     <main>
         <h2>My Collection</h2>
+        <div class="sort-and-search">
+            <div class="sort-box">
+                <label for="sort-dropdown">Sort:</label>
+                <select name="sort-dropdown" id="sort-dropdown">
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                    <option value="read">Read</option>
+                </select>
+            </div>
+            <div class="search-box">
+                <label for="search-collection">Search: </label>
+                <input type="text" name="search-collection">
+            </div>
+        </div>
         <ul class="comics-list">
             <li class="comics">
                 <h3>Title: Title1</h3>
@@ -44,7 +58,9 @@
                 <button>Remove</button>
             </li>
         </ul>
-        <Button>Add Comics</Button>
+        <div class="button-bar">
+            <button>Add Comics</button>
+        </div>
     </main>
 </body>
 </html>
