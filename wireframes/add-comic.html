@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add comic wireframe</title>
+    <link rel="stylesheet" href="add-comic.css" type="text/css" />
+</head>
+<body>
+    <nav class="nav-bar">
+        <p>Home</p>
+        <p>Collection</p>
+        <p>Wish List</p>
+        <p>Log Out</p>
+    </nav>
+    <header>
+        <h1>Comics App</h1>
+    </header>
+    <form class="add-comic-form">
+        <h2>New Comic</h2>
+        <label for="title-input">Title:</label>
+        <input type="text" name="title-input" class="title-input" required>
+
+        <label for="author-input">Author(s):</label>
+        <input type="text" name="author-input" class="author-input" required>
+
+        <label for="issue-input">Issue:</label>
+        <input type="number" name="issue-input" class="issue-input" required>
+
+        <label for="mark-as-read">Mark as read:</label>
+        <input type="checkbox" name="mark-as-read" class="mark-as-read" required>
+
+        <label for="description-input">Description:</label>
+        <input type="text" name="description-input" class="description-input" required>
+
+        <label for="desination-input">Add to:</label>
+        <select name="destination" name="desination-input">
+            <option value="collection">Collection</option>
+            <option value="wish-list">Wish List</option>
+        </select>
+
+        <button class="add-comic-button">Add Comic</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.add-comic-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+input {
+    margin: 10px;
+    width: 70%;
+}
+
+button {
+    margin: 15px;
+}
+
+.mark-as-read {
+    height: 15px;
+}
+
+.description-input {
+    height: 100px;
+}
+
+select {
+    margin: 10px;
+    width: 120px;
+}
+
+option {
+    text-align: center;
+}
+
+@media only screen and (min-width: 400px) {
+    input {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    input {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    input {
+        width: 30%;
+    }
+}
