@@ -16,3 +16,10 @@ header {
     text-align: center;
     padding-top: 30px;
 }
+
+div {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
