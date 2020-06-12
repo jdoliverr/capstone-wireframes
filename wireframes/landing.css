@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 nav {
     position: fixed;
     top: 0;
@@ -21,9 +26,34 @@ div {
     font-size: 10px;
     border: 1px solid black;
     padding: 3px;
+    margin: 15px
 }
 
 button {
-    font-size: 10px;
+    font-size: 8px;
     margin-bottom: 10px;
+}
+
+.big-button {
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+    div {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    div {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    div {
+        width: 35%;
+    }
 }
